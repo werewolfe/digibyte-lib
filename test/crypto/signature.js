@@ -2,11 +2,11 @@
 
 var _ = require('lodash');
 var should = require('chai').should();
-var digibyte = require('../..');
-var BN = digibyte.crypto.BN;
-var Signature = digibyte.crypto.Signature;
-var JSUtil = digibyte.util.js;
-var Interpreter = digibyte.Script.Interpreter;
+var bitcore = require('../..');
+var BN = bitcore.crypto.BN;
+var Signature = bitcore.crypto.Signature;
+var JSUtil = bitcore.util.js;
+var Interpreter = bitcore.Script.Interpreter;
 
 var sig_canonical = require('../data/bitcoind/sig_canonical');
 var sig_noncanonical = require('../data/bitcoind/sig_noncanonical');
@@ -251,7 +251,7 @@ describe('Signature', function() {
     });
 
 
-    describe('digibyted fixtures', function() {
+    describe('bitcoind fixtures', function() {
       var test_sigs = function(set, expected) {
         var i = 0;
         set.forEach(function(vector) {

@@ -2,8 +2,8 @@
 
 var expect = require('chai').expect;
 var should = require('chai').should();
-var digibyte = require('..');
-var networks = digibyte.Networks;
+var bitcore = require('..');
+var networks = bitcore.Networks;
 
 describe('Networks', function() {
 
