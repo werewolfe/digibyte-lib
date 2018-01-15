@@ -16,7 +16,7 @@ assert(block.transactions); // an array of transactions, more info below
 For detailed technical information about a block please visit [Blocks](https://en.bitcoin.it/wiki/Blocks#Block_structure) on the DigiByte Wiki.
 
 ## Block Header
-Each instance of Block has a BlockHeader _(which can be instantiated separately)_. The header has validation methods, to verify that the block.
+Each instance of Block has a BlockHeader _(which can be instantiated separately)_. The header has validation methods, to verify that block.
 
 ```javascript
 // will verify that the nonce demonstrates enough proof of work
