@@ -27,7 +27,7 @@ The complete docs are hosted here: [digibyte.js documentation](https://docs.digi
 
 ## Examples
 
-* [Generate an address](https://github.com/digibyte/digibyte-lib/blob/master/docs/examples.md#generate-a-random-address)
+* [Generate a Random address](https://github.com/digibyte/digibyte-lib/blob/master/docs/examples.md#generate-a-random-address)
 * [Generate a address from a SHA256 hash](https://github.com/digibyte/digibyte-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
 * [Import an address via WIF](https://github.com/digibyte/digibyte-lib/blob/master/docs/examples.md#import-an-address-via-wif)
 * [Create a Transaction](https://github.com/digibyte/digibyte-lib/blob/master/docs/examples.md#create-a-transaction)
