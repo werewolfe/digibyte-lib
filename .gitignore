@@ -15,9 +15,4 @@ bower_components
 report
 .DS_Store
 
-
-digibyte.js
-digibyte.min.js
-digibyte.sig
-digibyte.min.js.sig
 tests.js
